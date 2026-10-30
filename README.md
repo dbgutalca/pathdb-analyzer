@@ -1,6 +1,6 @@
-# pathdb-analyzer
+# Pathdb Analyzer
 
-pathdb-analyzer is a web tool for running RPQ queries on PathDB and visualizing their logical and physical execution plans, the graph schema, and per-query statistics.
+Pathdb Analyzer is a web tool for running RPQ queries on PathDB and visualizing their logical and physical execution plans, the graph schema, and per-query statistics.
 
 This repository contains **the frontend only** (Vue 3 + Vite, in [`frontend/`](frontend/README.md)). The **backend** (`app.jar`) and the **sample databases** are distributed separately on Google Drive:
 
