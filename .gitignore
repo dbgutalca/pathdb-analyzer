@@ -1,0 +1,16 @@
+# Backend y datos: viven en Google Drive, no en el repo
+app.jar
+backend/
+databases/
+fuentebackend/
+
+# Material interno / scripts que dependen del Drive
+guia.md
+Comandos para Linux/
+
+# Generado
+node_modules/
+dist/
+.vite/
+*.log
+.env*

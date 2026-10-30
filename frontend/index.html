@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PathDB Analyzer</title>
+  <!-- Tailwind CSS -->
+  <script src="/libs/tailwindcss.js"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#2563eb',
+            secondary: '#1e293b',
+            accent: '#f59e0b',
+          }
+        }
+      }
+    }
+  </script>
+  <!-- Fonts are imported in src/main.js for offline support -->
+  <!-- Lucide Icons -->
+  <!-- Local Icons and Graph Library for offline support -->
+  <script src="/libs/lucide.min.js"></script>
+  <script type="text/javascript" src="/libs/vis-network.min.js"></script>
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="app"></div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
